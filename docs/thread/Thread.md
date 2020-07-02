@@ -20,7 +20,7 @@
 * 偏向锁是操作对象头的MarkWord部分设置线程id，设置偏向锁状态
 * 对象头格式如图所示：
 
-![对象头](./picture/lock.png)
+![对象头](../../picture/thread/lock.png)
 * 锁状态发生变化的时候会相应修改对象头的信息
 
 
@@ -33,7 +33,7 @@
 * TIME_WAITED，计时等待
 * TERMINATED，终止状态
 
-![状态装换图](./picture/state.png)
+![状态装换图](../../picture/thread/state.png)
 
 * ThreadLocal可能会造成内存泄漏
 
