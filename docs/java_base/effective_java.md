@@ -59,15 +59,20 @@ public class ClassRoom{
 * 静态工具类和单例模式不适合需要引用底层资源的类，资源使用时使用try-with-resources的方式
 
 ```java
-1、这里需要注意，内部的resources必须实现或者扩展了AutoCloseable接口，单资源
-try(BufferedReader bf=new BufferedReader(new FileReader(path))){
-}
+    //1、这里需要注意，内部的resources必须实现或者扩展了AutoCloseable接口，单资源
+public class test{
+    public void test1(){
+        try(BufferedReader bf=new BufferedReader(new FileReader(path))){
+        }
+    }
 
-2、多资源
-try(BufferedReader bf=new BufferedReader(new FileReader(path));
-		OutputStream out=new FileOutputStream(src)){
+    //2、多资源
+    public void test2(){
+        try(BufferedReader bf=new BufferedReader(new FileReader(path));
+		        OutputStream out=new FileOutputStream(src)){
+        }
+    }
 }
-
 ```
 
 ###4、不要使用finalize方法

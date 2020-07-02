@@ -25,9 +25,15 @@
 （3）	弱引用，在下一次垃圾回收后，该引用的对象就会被回收
 （4）	虚引用，gc是不会
 
-	ThreadLocal的内存模型，其引发的内存泄漏的问题。线程的TreadLocal存在堆中，由Tread的堆中的引用维护，一个map，Key对应的线程的ThreadLocal，value是对应的值。当时Tread的引用中的key对ThreadLocal的引用时弱引用，在下一次gc的时候就会回。这样就造成map的key被垃圾回收了，但是Thread对该map的引用有事强引用，这样就造成map中的数据堆积，容易造成oom。
+	ThreadLocal的内存模型，其引发的内存泄漏的问题。
+	线程的TreadLocal存在堆中，由Tread的堆中的引用维护，
+	一个map，Key对应的线程的ThreadLocal，value是对应的值。
+	当时Tread的引用中的key对ThreadLocal的引用时弱引用，
+	在下一次gc的时候就会回。这样就造成map的key被垃圾回收了，
+	但是Thread对该map的引用有事强引用，这样就造成map中的数据堆积，
+	容易造成oom。
 
-![基本显示图](./picture/ThreadLocal.png)
+![基本显示图](../../picture/jvm/ThreadLocal.png)
 	
 ####4、理解 Java 的字符串，String、StringBuffer、StringBuilder 有什么区别？
 * String, 是java构造和管理字符串的基本逻辑，是不可变的类，字符串拼接剪切等操作会产生新的String对象，太多可能会造成oom。
@@ -58,10 +64,8 @@ int是基本类型，Integer是int的包装类，提供了基本的方法。java
 	ConcurrentHashMap线程安全的
 * TreeMap是红黑树实现的顺序访问的Map，get，put，remove都是在log(n)的时间复杂度上完成的，顺序可以有传入的comparator实现。
 
-####9、java中的集合整理
-（1）java中map
-Map的整体类继承关系如下
-![Map](./picture/map.png)
+####9、java中的集合整理 （1）java中map Map的整体类继承关系如下
+![Map](../../picture/java_base/map.png)
 
 * HashTable是早期集合，是线程安全的
 * HashMap是线程不安全的Map，HashMap的有效性依赖hashcode的有效性，因此要注意：
@@ -86,7 +90,7 @@ Map的整体类继承关系如下
 * 线程安全是基于分离锁，在内部进行分段，采用分段锁防止出现整个数组被锁住的情况。里面是HashEntry的数组
 * 内部采用volatile实现value字段的可见性，可以参考下图
 
-![HashEntry](./picture/HashEnry.png)
+![HashEntry](../../picture/java_base/HashEnry.png)
 
 可以看出内部使用分段锁来实现
 > Java8之后发生了什么变化呢
