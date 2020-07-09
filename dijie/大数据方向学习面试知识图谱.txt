@@ -1,0 +1,332 @@
+https://mp.weixin.qq.com/s?__biz=MzI0NTIxNzE1Ng==&mid=2651217966&idx=1&sn=a01d252e63623134ec1e01ad30496eb5&chksm=f2a322c5c5d4abd3f07cec1f35605420139fa5342f316e318ebc51bb3eecb15178a2a80cecd4&mpshare=1&scene=24&srcid=&sharer_sharetime=1569159554221&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=60e020777f8f338aaabc18d5d318e449e789378ce1905711a411d67afa3986f2f7d1a1619c9c13e9bfc6b20001233770a697cd91c38fce54b2197b1244463cdf932f3aea4d039be4aa61683b90623f6b&ascene=14&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070136&lang=zh_CN&pass_ticket=Uk7URK1AJ%2Fto3HIbrIAT9Q4CUKilzP3ZNkMKDxixEJ1zgbFsPKWJJU3sWcatZM3r	
+
+↑大数据方向学习面试知识图谱↑
+
+
+String.intern() 的底层原理
+https://blog.csdn.net/u013366617/article/details/83618361	String.intern()详细分析，JDK1.8
+
+虚拟机的常量池
+https://blog.csdn.net/qq_26947195/article/details/79505553	Java常量池理解和经典总结
+
+自动装箱/拆箱
+https://blog.csdn.net/wufaliang003/article/details/82347077	什么是Java中的自动拆装箱
+
+final
+https://blog.csdn.net/TzBugs/article/details/80939811	深入了解final关键字
+
+transient
+https://www.cnblogs.com/chenpi/p/6185773.html	Java中的关键字 transient
+https://www.cnblogs.com/lanxuezaipiao/p/3369962.html	Java transient关键字使用小记
+
+static
+https://www.iteye.com/blog/schy-hqh-1948912	（基础）java中的静态变量与静态函数Static
+
+instanceof
+https://www.cnblogs.com/ysocean/p/8486500.html	Java关键字(一)——instanceof
+
+clone
+https://blog.csdn.net/junehappylove/article/details/81365212	JAVA clone方法-深复制(深克隆)&浅复制(浅克隆)
+
+内部类
+https://blog.csdn.net/hacker_zhidian/article/details/82193100	内部类
+
+volatile
+https://www.cnblogs.com/xiaoxi/p/7251171.html	Java中volatile关键字解析
+https://www.cnblogs.com/hujunzheng/p/5118256.html	JMM和happens-before原则
+
+原子变量
+https://www.cnblogs.com/yangming1996/p/7709395.html	Java并发编程之原子变量
+
+枚举
+https://www.cnblogs.com/jingmoxukong/p/6098351.html	java枚举
+
+Synchronized
+https://www.cnblogs.com/blueSkyline/p/8598099.html	关于java的Synchronized，你可能需要知道这些（上）
+https://www.cnblogs.com/blueSkyline/p/8832213.html	关于java的Synchronized，你可能需要知道这些（下）
+https://www.cnblogs.com/paddix/p/5405678.html	Java并发编程：Synchronized底层优化（偏向锁、轻量级锁）
+https://juejin.im/post/5bc87409f265da0ad701da35	Synchronize和ReentrantLock区别
+https://www.cnblogs.com/yangfeiORfeiyang/p/9694383.html	ConcurrentHashMap 1.8为什么要使用CAS+Synchronized取代Segment+ReentrantLock
+
+
+集合
+https://www.jianshu.com/p/b54f1df33f84	JAVA集合框架中的常用集合及其特点、适用场景、实现原理简介
+https://blog.csdn.net/qq_37932082/article/details/79455676	java集合各实现类的底层实现原理
+https://www.cnblogs.com/lijiasnong/p/9963808.html	ConcurrentHashMap的实现原理(JDK1.7和JDK1.8)
+https://www.cnblogs.com/everSeeker/p/5601861.html	ConcurrentHashMap在jdk1.8中的改进
+//*已失效
+https://www.jianshu.com/p/358debfc448e	【Java 并发笔记】ConcurrentHashMap（1.7） 相关整理
+https://www.jianshu.com/p/81d848ea6c1a	【Java 并发笔记】ConcurrentHashMap（1.8） 相关整理
+*//
+https://www.jianshu.com/p/62e0b119a968	JAVA并发容器-ConcurrentHashMap 1.7和1.8 源码解析
+https://www.cnblogs.com/tiancai/p/9056393.html	hashmap死锁
+
+JUC
+https://www.jianshu.com/p/1f19835e05c0	JUC
+
+动态代理
+https://blog.csdn.net/wufaliang003/article/details/79305688/	Java中三种代理方式—— 静态代理与两种动态代理的实现机制
+
+锁
+https://www.cnblogs.com/hustzzl/p/9343797.html	Java中的锁分类与使用
+https://www.jianshu.com/p/2eb5ad8da4dc	深入理解Java中的锁
+https://blog.csdn.net/boyeleven/article/details/81390738	Java对象的Monitor机制
+https://blog.csdn.net/ZHWang102107/article/details/83042406	Java死锁原理、如何避免死锁、死锁检测
+https://www.cnblogs.com/liun1994/p/7396026.html	Java并发工具类 - CountDownLatch
+https://blog.csdn.net/qq_38293564/article/details/80558157	Java并发编程之CyclicBarrier详解
+https://www.cnblogs.com/klbc/p/9500947.html	Semaphore 的使用思路
+https://www.cnblogs.com/iou123lg/p/9689491.html	Semaphore 使用
+https://www.cnblogs.com/barrywxx/p/8678698.html	synchronized的锁优化
+https://blog.csdn.net/fygu18/article/details/81784574	读写锁
+
+线程池
+https://www.jianshu.com/p/f5ead62827d7	深入剖析Java线程池原理	已失效 用https://www.jianshu.com/p/87bff5cc8d8c/
+
+ThreadLocal
+https://www.jianshu.com/p/98b68c97df9b	ThreadLocal-面试必问深度解析
+
+wait,notify,notifyAll
+https://www.jianshu.com/p/25e243850bd2?appinstall=0	wait,notify,notifyAll
+https://www.cnblogs.com/lirenzhujiu/p/5927241.html	为什么wait()和notify()属于Object类
+https://www.zhihu.com/question/37601861	java中的notify和notifyAll有什么区别？
+
+多线程
+https://blog.csdn.net/weixin_34088583/article/details/86474687	40个多线程问题总结
+https://www.cnblogs.com/waterystone/p/4920007.html	Thread详解
+
+中断
+https://www.jianshu.com/p/678e17386e79	Java中断机制
+
+AQS
+https://www.cnblogs.com/waterystone/p/4920797.html	Java并发之AQS详解
+https://blog.csdn.net/qq_38293564/article/details/80480688	Java并发编程之AbstractQueuedSynchronizer详解（一）
+https://blog.csdn.net/qq_38293564/article/details/80481242	Java并发编程之AbstractQueuedSynchronizer详解（二）
+https://blog.csdn.net/qq_38293564/article/details/80483751	Java并发编程之AbstractQueuedSynchronizer详解（三）
+
+JVM
+https://blog.csdn.net/zhaohong_bo/article/details/89399715	深入理解 JVM Class文件格式
+https://www.jianshu.com/p/de097e7a813a	JVM内存结构 & Java垃圾回收机制（GC）
+https://www.cnblogs.com/yueshutong/p/9531347.html	四种引用类型
+https://blog.csdn.net/qq_34457118/article/details/81712293	JVM内存结构（基于JDK8）
+https://blog.csdn.net/rickiyeat/article/details/76802085	Java中对象都是分配在堆上吗？你错了！
+https://blog.csdn.net/w372426096/article/details/80333657	对象并不一定都是在堆上分配内存的。
+https://blog.csdn.net/w372426096/article/details/80938788	Java中的逃逸分析
+https://www.cnblogs.com/dzhou/p/9549839.html	什么是JIT
+https://blog.csdn.net/weixin_42467553/article/details/90084261#_6	编译优化
+C:\Users\tzmaj\Desktop\面试\java\深入理解Java内存模型.pdf	深入理解Java内存模型
+https://blog.csdn.net/w372426096/article/details/81360083	Java垃圾回收
+https://www.cnblogs.com/qlqwjy/p/7929414.html	【GC分析】Java GC日志查看
+https://www.cnblogs.com/anyehome/p/9071619.html	JVM--参数调优
+https://blog.csdn.net/w372426096/article/details/81167669	JVM成神之路-Java对象模型
+https://segmentfault.com/a/1190000019435442	JAVA运行时简述(HotSpot)
+https://www.cnblogs.com/xrq730/p/4842483.html	Java虚拟机8：虚拟机性能监控与故障处理工具
+https://blog.csdn.net/m0_38075425/article/details/81627349	jvm之java类加载机制和类加载器(ClassLoader)的详解
+https://blog.csdn.net/qian9140/article/details/84696300	java能不能自己写一个类叫java.lang.System/String正确答案
+https://www.cnblogs.com/diegodu/p/9849611.html	[jvm][面试]JVM 调优总结
+https://www.jianshu.com/p/17e72bb01bf1	java堆外内存
+https://www.jianshu.com/p/ca1b0d4107c5	CMS之promotion failed&concurrent mode failure
+https://www.jianshu.com/p/60dbd8009c64	聊聊JDBC是如何破坏双亲委派模型的
+https://blog.csdn.net/zhushuai1221/article/details/52122880	Java 8: 从永久代（PermGen）到元空间（Metaspace）
+https://blog.csdn.net/pzxwhc/article/details/46722411	Java JVM（六）：JDK8 元空间
+
+NIO
+http://ifeve.com/overview/	Java NIO系列教程（一） Java NIO 概述
+https://www.cnblogs.com/wlwl/p/10291397.html	Linux五大网络IO模型图解
+https://blog.csdn.net/anxpp/article/details/51512200	Java 网络IO编程总结（BIO、NIO、AIO均含完整实例代码）
+https://blog.csdn.net/localhost01/article/details/83422888	浅谈NIO与零拷贝
+
+分布式
+https://www.cnblogs.com/stateis0/category/1206895.html	分布式理论
+https://blog.csdn.net/imi00/article/details/80948481	分布式锁解决方案
+https://www.jianshu.com/p/ee4071d0c951	分布式事务解决方案
+https://hhbbz.github.io/2018/09/06/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%9B%9B%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/	分布式事务的四种解决方案
+https://www.cnblogs.com/firstdream/p/9055816.html	分布式 ID 生成器解决方案
+
+一致性hash
+https://blog.csdn.net/lovetea99/article/details/89484692	一致性hash
+
+Netty
+https://mp.weixin.qq.com/s/YS_RLOd0iVwDcwH6JMyB8g	这可能是目前最透彻的Netty原理架构解析
+
+HDFS
+https://blog.csdn.net/kezhong_wxl/article/details/76573901	HDFS读写流程
+https://www.cnblogs.com/HelloBigTable/p/10583939.html	HDFS及其各组件的机制
+https://blog.csdn.net/weixin_37838429/article/details/81710045	(Hdoop)HDFS—HA高可用详解
+https://blog.csdn.net/qq_35641192/article/details/80291306	NameNode 工作机制
+
+YARN
+https://www.jianshu.com/p/d6dcbe473475	yarn应用场景基本架构和资源调度
+
+HIVE
+https://www.jianshu.com/p/0974aa91affc	hive原理
+https://yq.aliyun.com/articles/632128	[Hive]Hive使用指南七 空值与NULL
+https://www.aboutyun.com/forum.php?mod=viewthread&tid=19634&ordertype=1	[总结型] hive中四种排序作用总结
+https://www.cnblogs.com/drjava/p/10521401.html	hive动态分区
+https://www.jianshu.com/p/0696a52226bb	【数据库】HIVE SQL与SQL的区别
+https://blog.csdn.net/qq_36743482/article/details/78393678	hive外部表和内部表
+https://blog.csdn.net/pengzonglu7292/article/details/81352275	仅从SQL和表及参数层面简单总结22种Hive基础调优方式
+https://blog.csdn.net/wxfghy/article/details/81361400	面试题整理(Hive)
+
+Hbase
+https://cloud.tencent.com/developer/article/1472648	HBase设计结构和原理
+https://www.cnblogs.com/steven-note/p/7209398.html	详解HBase架构原理
+https://www.jianshu.com/p/4a7ba524c111	HBase读写流程
+https://www.cnblogs.com/duanxz/p/4513631.html	HBase之七：事务和并发控制机制原理
+https://www.cnblogs.com/frankdeng/p/9529044.html	HBase性能调优总结
+https://blog.csdn.net/qq_32253371/article/details/87088619	HbaseRowkey设计以及列族和列的关系
+https://www.csdn.net/gather_21/MtTaEg0sNTUyNi1ibG9n.html	region拆分-- 这个可以不看
+https://www.cnblogs.com/163yun/p/9014762.html	region拆分
+https://www.jianshu.com/p/88d4561cbe1b	HBase 写性能优化
+https://blog.csdn.net/zhanglh046/article/details/78517478	HBase读性能优化策略
+https://blog.csdn.net/lifuxiangcaohui/article/details/39991781	HBase总结（九）Bloom Filter概念和原理
+https://www.cnblogs.com/quchunhui/p/7543385.html	HBase预分区方法
+https://blog.csdn.net/zyc88888/article/details/79666846	HBase Compaction详解
+https://www.cnblogs.com/smartloli/p/8439224.html	HBase MemStore和Compaction剖析
+https://blog.csdn.net/xiaolong_4_2/article/details/84323990	解决hbase RegionServer频繁宕机的一些办法
+http://hbasefly.com/?s=hbase&submit=Search	大牛hbase博客
+https://mp.weixin.qq.com/s?__biz=MzI0NTIxNzE1Ng==&mid=2651218277&idx=1&sn=cee9f51fcd11f8e54b0925fdfd9eb38f&chksm=f2a3238ec5d4aa98d5794b46249d9d28c22ad207680ac228b27788583c0d26740bc6131b86ab&mpshare=1&scene=1&srcid=&sharer_sharetime=1572245532520&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=a8dbb24e2b14083ae54ecacac8a23fb9f1c2c17f42ef4c15d1431ee13904e936249b286c3fbc85242caa3e20f47ec1c67b9aeed179a5a29aca714f027b84de5453218c8b872887687fc841ab8a015ad1&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=SPF%2FIn61t9V0ODw0F4UIsFxrhX0xzucebDYQLD%2F2Q1cO6uvjbiQBgAS9HVNGMsNb	HBase抗战总结|阿里巴巴HBase高可用8年抗战回忆录
+https://blog.51cto.com/12445535/2373788?source=dra	hbase内存规划（读多写少型和写多读少型）
+https://blog.csdn.net/lipeng_bigdata/article/category/6049175/1	hbase 源码分析
+
+Kafka
+https://www.cnblogs.com/tianchengmmmm/p/8116325.html	Kafka的特点及使用场景
+https://blog.csdn.net/weixin_43975220/article/details/93190906	kafka中的ISR、AR又代表什么？ISR伸缩又是什么？
+https://blog.csdn.net/qq_37502106/article/details/80271800	Kafka HA Kafka一致性重要机制之ISR(kafka replica)
+https://blog.csdn.net/weixin_43892898/article/details/89135311	Kafka整体架构
+https://blog.csdn.net/yanshu2012/article/details/54894629	kafka leader选举机制原理
+https://blog.csdn.net/weixin_34410662/article/details/92373023	kafka存储机制与读写流程
+https://blog.csdn.net/qq_26222859/article/details/54926313	kafka日志精简和备份机制
+https://www.cnblogs.com/songanwei/p/9202803.html	Kafka消费组(consumer group)
+https://www.jianshu.com/p/8689901720fd	某互联网大厂kafka最佳实践
+https://blog.csdn.net/weixin_30790841/article/details/98409344	【译】Kafka最佳实践 / Kafka Best Practices
+https://www.zhihu.com/question/266390197	kafka分布式的情况下，如何保证消息的顺序?
+https://cloud.tencent.com/developer/article/1503226	Kafka笔记—可靠性、幂等性和事务
+https://blog.csdn.net/sheep8521/article/details/89511219	kafka原理系列之（四）ACK机制（数据可靠性和持久性保证）
+https://blog.csdn.net/muyimo/article/details/91439222	kafka事务性实现
+https://blog.csdn.net/CoderBoom/article/details/84845197	kafka的文件存储机制
+https://blog.csdn.net/poppy_evan/article/details/79221221	Kafka 文件存储机制（详细过程，完美解决）
+https://www.jianshu.com/p/5d889a67dcd3	Kafka 0.11.0.0 是如何实现 Exactly-once 语义的
+https://www.cnblogs.com/zongyl/p/8064220.html	RabbitMQ和kafka从几个角度简单的对比
+https://blog.csdn.net/u013256816/article/details/79838428	消息中间件选型分析——从Kafka与RabbitMQ的对比来看全局
+
+spark
+https://blog.csdn.net/weixin_42685589/article/details/81030438	Spark集群基础概念 与 spark架构原理
+https://blog.csdn.net/Trigl/article/details/72732241	Learning Spark——client mode和cluster mode的区别
+https://www.cnblogs.com/yjd_hycf_space/p/7681585.html	Spark的核心RDD（Resilient Distributed Datasets弹性分布式数据集）
+https://blog.csdn.net/zhangvalue/article/details/84780428	Spark基础 DAG
+https://www.jianshu.com/p/a5488d83598a	Spark RDD运行原理详解(血缘)
+https://blog.csdn.net/qq_1018944104/article/details/85714631	SparkCore 核心知识——核心机制
+https://www.cnblogs.com/jagel-95/p/9773925.html	spark 图文详解:资源调度和任务调度
+https://blog.csdn.net/helloxiaozhe/article/details/81533438	Spark资源调度和任务调度过程介绍
+https://blog.csdn.net/Mathieu66/article/details/85107607	《Spark Streaming checkpoint 实现状态恢复》
+https://www.cnblogs.com/superhedantou/p/9004820.html	spark checkpoint详解
+https://blog.csdn.net/imgxr/article/details/80131262	深入解析Spark中的RPC
+https://www.jianshu.com/p/e8b6b487dae9	Spark RPC 通信机制
+https://www.cnblogs.com/itboys/p/9201750.html	彻底搞懂spark的shuffle过程（shuffle write）
+https://blog.csdn.net/allwefantasy/article/details/81039578	Spark Tungsten-sort Based Shuffle 分析
+https://juejin.im/post/5be0329d6fb9a049b3476f32	Spark ShuffleManager内存缓冲器SortShuffleWriter设计思路剖析-Spark商业环境实战
+https://mp.weixin.qq.com/s?__biz=MzI0NTIxNzE1Ng==&mid=2651218219&idx=1&sn=8ac6cf6d20c58a1c10c8e4a319a24e78&chksm=f2a323c0c5d4aad6009abe2a4f643be0c1cfda9cdfcde49ab39df3c7e9e709fc11f18e45c572&scene=0&xtrack=1&key=85096ad5b95db4c98c2def9310f36f0abfb06500217362e61c333c62ad8838d9a05bedfeb1041a2c02e9a47951e1b90d9f6f640e2276d922ff94479585d4ce1ec9f1da447b9ae25076315e27909741b5&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=qS65gr8xEafsGKfYbVLqAgQa%2BefH%2B5wUtnY3bQn%2B7re1f9RvaTISYSc%2BSJQ5rDaS	Spark和Flink的状态管理State的区别和应用
+https://blog.csdn.net/wypersist/article/details/79774975	Spark Streaming运行原理与核心概念
+https://blog.csdn.net/qq_35394891/article/details/82145533	[spark streaming] 架构和运行机制
+https://blog.csdn.net/vinfly_li/article/details/79415342	Spark开发性能调优
+https://blog.csdn.net/u011750989/article/details/82345880	spark streaming中的广播变量应用
+https://www.cnblogs.com/wq920/p/7099129.html	数据接收并行度调优（二）
+https://www.iteblog.com/archives/2323.html#respond	Spark Streaming 反压（Back Pressure）机制介绍
+https://blog.csdn.net/junerli/article/details/78607708	Spark SQL运行原理
+https://www.jianshu.com/p/efea07f43e7c	Spark Sql 运行原理
+https://blog.csdn.net/u012137473/article/details/84995896#_4	Spark SQL 优化策略
+https://www.jianshu.com/p/1d6db8cb6e06	Structured Streaming
+https://blog.csdn.net/zeroder/article/details/73650738	Structured Streaming 输入输出
+https://blog.csdn.net/s294878304/article/details/100633702	四、Structured Streaming的事件-时间（Event-time）和延迟数据 （Late Data）
+https://www.cnblogs.com/huzuoliang/p/7070655.html	Structured Streaming 之窗口事件时间聚合操作
+https://www.jianshu.com/p/43d11948ad11	StructuredStreaming编程指南
+https://blog.csdn.net/cclovezbf/article/details/101426903	structured-Streaming之watermark水印update和append模式学习
+https://blog.csdn.net/l_15156024189/article/details/81612860	Spark 2.3.0 Structured Streaming详解
+https://www.jianshu.com/p/a3de2ac76daf	Structured-Streaming 学习三－exactly once
+https://github.com/lw-lin/CoolplaySpark/tree/master/Structured%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97	Structured Streaming 源码解析系列
+
+flink
+http://wuchong.me/blog/2016/05/03/flink-internals-overview/	Flink 原理与实现：架构和拓扑概览
+https://github.com/flink-china/flink-training-course/#26-flink-%E4%BD%9C%E4%B8%9A%E6%89%A7%E8%A1%8C%E8%A7%A3%E6%9E%90	2.6 Flink 作业执行解析
+https://www.jianshu.com/p/0534b78f7abd	Flink 原理与实现：理解 Flink 中的计算资源
+https://blog.csdn.net/u013411339/article/details/89430407	Flink 原理与实现：Operator Chain原理
+https://blog.csdn.net/yanghua_kobe/article/details/51736308	Apache Flink流分区器剖析
+https://www.jianshu.com/p/79275f1a6057	Flink 编程模型
+http://www.whitewood.me/2018/06/17/FLIP6-%E8%B5%84%E6%BA%90%E8%B0%83%E5%BA%A6%E6%A8%A1%E5%9E%8B%E9%87%8D%E6%9E%84/	FLIP6: 资源调度模型重构
+https://yq.aliyun.com/articles/719262?spm=a2c4e.11153940.0.0.1fcf2d90Ih9tQl	Flink on YARN（上）：一张图轻松掌握基础架构与启动流程
+https://github.com/flink-china/flink-training-course/#25-flink-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%BA%8F%E5%88%97%E5%8C%96		https://mp.weixin.qq.com/s?__biz=MzU3Mzg4OTMyNQ==&mid=2247484988&idx=1&sn=d6fc100d681658fdcc2589c61e0a8549&chksm=fd3b887eca4c0168ba45179611e15f7b7106e47013b474e86ea628fc0bb0c0b4f7f98c91b96d&scene=21#wechat_redirect	2.5 Flink序列化 
+http://wuchong.me/blog/2016/04/29/flink-internals-memory-manage/	Flink 原理与实现：内存管理
+https://github.com/flink-china/flink-training-course/#27-flink%E7%BD%91%E7%BB%9C%E6%B5%81%E6%8E%A7%E5%8F%8A%E5%8F%8D%E5%8E%8B%E5%89%96%E6%9E%90		https://mp.weixin.qq.com/s?__biz=MzU3Mzg4OTMyNQ==&mid=2247485144&idx=1&sn=3c5bddd81fecc50d767b4fb804874100&chksm=fd3b889aca4c018c81df67b7bac8645ae47c01455e01171f4c391b5459e413f7f806fc7dd87a&mpshare=1&scene=1&srcid=&sharer_sharetime=1572857990397&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=85096ad5b95db4c925f0ca22e5a038f04a30ce27492289853a3db51c0b9f641bb899e5fead8be85c5ef4ca9153931e27ccd47b56fbe38bd389bf7a6538fb1277f5a3d60c832a15e9e09f19b0eb2211c8&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=Q9a2xIAsvIFetpdjevUMGq8B2fqn7%2BzMRYXxiTdl89xC9%2FbAem9b6p4ofDsf7X8G	2.7 Flink网络流控及反压剖析
+http://wuchong.me/blog/2016/04/26/flink-internals-how-to-handle-backpressure/#%E7%BD%91%E7%BB%9C%E4%BC%A0%E8%BE%93%E4%B8%AD%E7%9A%84%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86	Flink 原理与实现：如何处理反压问题
+https://blog.csdn.net/lvwenyuan_1/article/details/93490297	Flink反压机制
+https://mp.weixin.qq.com/s?__biz=MzU3Mzg4OTMyNQ==&mid=2247484025&idx=1&sn=502fc5c619723f4eefffe0f2aa4a6d2e&chksm=fd3b8c3bca4c052dbecc8c754e0784e9bfe62f5884b0e119dffe40530cdc7bf43dcaf1b01795&scene=21#wechat_redirect	原理解析 | 深入了解 Apache Flink 的网络协议栈
+https://mp.weixin.qq.com/s?__biz=MzU3Mzg4OTMyNQ==&mid=2247485057&idx=1&sn=ce85b91ec6484819aa65ab0be315ca68&chksm=fd3b88c3ca4c01d5da90b24905df71d4f74354bae57a6da28dd865442f39472c56526938f2ee&scene=0&xtrack=1&key=a8dbb24e2b14083a04af22b946de4f1a90d499f65fa785a6f16c034e9db33af1b9f740c12badf2cb1fd321e25e455caf1902cb69ee73eba0e718fd5e8c083e629fa566124381f22f8a4f220b4af53c3b&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=yeFcxBeuOTXfjdzZWxVuHS69smGy4hlUAg6fkCARki%2Ffi2XT8c0LHIzdaIW09qUX	深入了解 Flink 网络栈（二）：监控、指标和处理背压
+https://blog.csdn.net/xianpanjia4616/article/details/86680066	Flink累加器的使用(accumulator)
+https://github.com/flink-china/flink-training-course/#17-%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E4%B8%8E%E5%AE%B9%E9%94%99%E6%9C%BA%E5%88%B6	1.7 状态管理与容错机制
+https://mp.weixin.qq.com/s?__biz=MzI0NTIxNzE1Ng==&mid=2651218267&idx=1&sn=f675c8544579b1a3c5f0b214188316ab&chksm=f2a323b0c5d4aaa628d5714678c8d3704674642b39d0dd5566153a21b5dcc5291f7d0c8fc898&mpshare=1&scene=1&srcid=&sharer_sharetime=1572245638884&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=2d030d495be8f43e72b453e42e4b250ea05cb1b37e580280afe464c4506f838823ad014fa07a55a7290fda4a32cc944dd6cb09831d2f7f0cb539aa1fe7fe4d900b5afee92461ca1097f90ba0dcbe92d7&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=SPF%2FIn61t9V0ODw0F4UIsFxrhX0xzucebDYQLD%2F2Q1cO6uvjbiQBgAS9HVNGMsNb	Flink CheckPoint奇技淫巧 | 原理和在生产中的应用
+https://blog.csdn.net/u010022051/article/details/51481189	看内部原理 容错机制 barrier
+https://blog.csdn.net/lisenyeahyeah/article/details/89876122	CheckpointCoordinator
+http://rann.cc/2017/10/15/flink-checkpoint.html	【Flink】Flink容错之Checkpoint机制源码分析
+https://enjoyment.cool/2019/01/01/Apache%20Flink%20%E6%BC%AB%E8%B0%88%E7%B3%BB%E5%88%97%20-%20State/	Apache Flink 漫谈系列 - State
+https://yq.aliyun.com/articles/225623?spm=a2c4e.11155435.0.0.7af57c3fw2nuHt	Flink原理与实现：详解Flink中的状态管理
+https://github.com/flink-china/flink-training-course/#36-state-processor-api-%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%BC%94%E7%A4%BA	3.6 State Processor API 介绍与演示
+https://github.com/flink-china/flink-training-course/#211-flink-state-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5	2.11 Flink State 最佳实践
+https://blog.csdn.net/Jiny_li/article/details/86419995	Flink状态管理之State Backend(状态的后端存储)
+https://github.com/flink-china/flink-training-course/#16-window--time	1.6 Window & Time
+https://yq.aliyun.com/articles/225624?spm=a2c4e.11155435.0.0.29657c3fg8sMis	Flink原理与实现：Window的实现原理
+https://blog.csdn.net/aa1215018028/article/details/98482124	Flink并行度与slot之间的关系
+https://www.jianshu.com/p/b58988bcfb48	Flink--对parallelism 和 slot的理解
+https://www.jianshu.com/p/cf1cb33bffd9	Flink Table API 和SQL的流处理
+http://wuchong.me/blog/2017/05/17/flink-internals-async-io/	异步IO 维表join
+https://blog.csdn.net/u012554509/article/details/100533749	flink1.9新特性：维表JOIN解读
+https://blog.csdn.net/wangpei1949/article/details/96634493	Flink DataStream流表与维表Join(Async I/O)
+https://enjoyment.cool/2019/03/06/Apache%20Flink%20%E6%BC%AB%E8%B0%88%E7%B3%BB%E5%88%97%20-%20JOIN%20%E7%AE%97%E5%AD%90/	双流join
+https://yq.aliyun.com/articles/225618?spm=a2c4e.11155435.0.0.29657c3fFuZvZN	Flink原理与实现：如何生成ExecutionGraph及物理执行图
+https://blog.csdn.net/qq_35440040/article/details/84992796	flink参数释义
+https://www.cnblogs.com/lanyun0520/p/5671384.html	如何添加一个新的Operator
+https://blog.csdn.net/aA518189/article/details/86555261	flink实战--UDF
+https://www.jianshu.com/p/5dc2cab91c78	Flink UDF
+https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238504&idx=1&sn=7756ce7af39b2068eb72ced6f67cf992&chksm=8f5a0474b82d8d6202674cb5b6eafc35f5e006111bc94c19a900da12a5ce416c1731a924055a&mpshare=1&scene=1&srcid=1028VWtwocAXj7SWkMwz40QM&sharer_sharetime=1572245690595&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=60e020777f8f338af0475a53a177c62109ed464a4e603c81777bb0aa339005b3dc798183bee9d676ad84a60a23ad5008850c249a6949847ccab142a5576d11ba051642a6c261e65f7d6b663df8b86d64&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=SPF%2FIn61t9V0ODw0F4UIsFxrhX0xzucebDYQLD%2F2Q1cO6uvjbiQBgAS9HVNGMsNb	Flink 实时写入数据到 ElasticSearch 性能调优
+https://juejin.im/post/5d6bd9656fb9a06add4e459b	Flink 源码解析 —— 项目结构一览
+https://yq.aliyun.com/articles/600173	Flink技术源码解析（一）：Flink概述与源码研读准备
+https://www.jianshu.com/p/4e4c188f5d7b	探究Flink on YARN模式下TaskManager的内存分配
+https://cloud.tencent.com/developer/article/1437780	state清除
+https://flink.sojb.cn/monitoring/debugging_classloading.html	flink 类加载机制
+https://blog.csdn.net/yulei_qq/article/details/87803854	flink on yarn HA
+https://www.yuque.com/zhuizhuyangguang/troubleshooting/kt0r18#OsWgI	分析Flink任务如何偷偷超过Yarn容器内存限制
+
+flink大佬的博客
+https://enjoyment.cool/	Jincheng Sun
+http://wuchong.me/	wucong
+http://chenyuzhao.me/	玉兆
+https://github.com/flink-china/flink-training-course/	flink教程
+https://ververica.cn/developers-resources/	ververica
+https://yq.aliyun.com/articles/715450?spm=a2c4e.11153940.0.0.5ede12a8hT2ssd	接着！！Apache Flink 全领域干货合集（持续更新）
+https://flink.apache.org/blog/	apache
+http://www.whitewood.me/	不知名
+https://blog.jrwang.me/	不知名
+https://github.com/yangchong211/YCBlogs	不知名
+
+
+redis
+https://mp.weixin.qq.com/s?__biz=MzI0NjU2NDkzMQ==&mid=2247484302&idx=1&sn=193598f6c6d25e60000156782389b0af&chksm=e9bc12a2decb9bb45659f0778f5b82858b139cc4837eae467e1aed7d71907a23e66c1a022e15&mpshare=1&scene=1&srcid=&sharer_sharetime=1572245496901&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=911195dd53eca2dec161153a73019ea6b8fbb2c620bbd1468e82f4bb3fc3d44247f4f0ef43ed6b9b2dcee6ec8aa66c6b4394bf305c0275ef3c31f25cdfa39fd2e1e66a7f1405dfb2b30bc6f7326f31e7&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=SPF%2FIn61t9V0ODw0F4UIsFxrhX0xzucebDYQLD%2F2Q1cO6uvjbiQBgAS9HVNGMsNb	Redis面试最常见20题
+https://mp.weixin.qq.com/s?__biz=MzI0NTIxNzE1Ng==&mid=2651218277&idx=3&sn=4d7df4f1a1331401799b441f33d804dc&chksm=f2a3238ec5d4aa981e98ce5efd6e01323066c3693692cfac52aa3029cf3d9b8daaa90a8caabb&mpshare=1&scene=1&srcid=&sharer_sharetime=1572245541434&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=85096ad5b95db4c9dbe9a099058b10ae1c7b5ac922e0cc0de3b42efb26f9297b7f7399e2c7a6176c592e393fd78a0b88722b3e0034ebbdaf8c8a5b99eba19b64a9e5e947fb1abe0621c1d2f1b6c332b8&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=SPF%2FIn61t9V0ODw0F4UIsFxrhX0xzucebDYQLD%2F2Q1cO6uvjbiQBgAS9HVNGMsNb	Redis如何高效可靠地实现主从复制？终于有人讲明白了
+
+设计模式
+http://wuchong.me/blog/2014/08/28/how-to-correctly-write-singleton-pattern/	单例
+https://www.cnblogs.com/chiclee/p/9097772.html	枚举单例
+http://c.biancheng.net/design_pattern/	Java设计模式：23种设计模式全面解析（超级详细）
+https://www.runoob.com/design-pattern/factory-pattern.html	设计模式
+
+算法
+
+排序&查找
+https://www.cnblogs.com/guoyaohua/p/8600214.html	十大经典排序算法最强总结（含JAVA代码实现）
+https://blog.csdn.net/abcdef314159/article/details/85097414	常见查找算法（Java代码实现）
+https://blog.csdn.net/shujuelin/article/details/82423852	快排
+https://blog.csdn.net/chenssy/article/details/26668941	TreeMap 红黑树
+https://blog.csdn.net/Hacker_ZhiDian/article/details/60586445	https://blog.csdn.net/Hacker_ZhiDian/article/details/60586445
+
+
+笔试题：
+死锁、排序、查找、线程按顺序执行
