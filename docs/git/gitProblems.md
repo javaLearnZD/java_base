@@ -19,6 +19,3 @@ git add .
 git commit -m "update .gitignore"
 
 ```
-
-
-gi
