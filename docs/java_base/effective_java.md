@@ -48,6 +48,60 @@
 	（4）RefinedAbstraction是修正抽象化角色，引用实现化角色对抽象化角色进行修正
 	（5）ConcreteImplementor是具体实现化角色，实现接口或者抽象类定义的方法或属性
 
+``` java
+//以手机品牌和手机软件为例子，手机有不同品牌，每种手机都会有不同的软件
+//interface
+public interface SoftWare{
+	public void run();
+} 
+//不同软件的实现
+public Game implements SoftWare{
+	public void run(){
+		System.out.println("Play games..");
+	}
+}
+public Calendar implements SoftWare{
+	public void run(){
+		System.out.println("Calendar")
+	}
+}
+//abstraction
+public abstract phoneBrand{
+	private SoftWare sw;
+	
+	public void setSoftWare(SoftWare sw){
+		this.sw=sw;
+	}
+	
+	//依赖具体实现，不同品牌手机有不同的运行方式
+	public abstract void run();
+}
+//
+public Huawei extends phoneBrand{
+	pulic void run(){
+		sw.run();
+	}
+}
+//不同的实现有不同的运行方式，但是对于相同的软件，运行方式都相同
+public Vivo extends phoneBrand{
+	public void run(){
+		System.out.println("Hello vivo!");
+		sw.run();
+	}
+}
+
+//调用
+public class Zhiyi{
+	public static void main(String[] args){
+		phoneBrand pb=new Huawe();
+		pb.setSoftWare(new Game());
+		pb.run();
+		pb.setSoftWare(new Calendar());
+		pb.run();
+	}
+}
+```
+
 
 
 ###2、多个构造器参数的时候考虑使用构建器
