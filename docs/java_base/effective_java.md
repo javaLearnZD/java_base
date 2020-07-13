@@ -175,11 +175,83 @@ public class test{
 }
 ```
 ***单例设计模式***<br>
-（1）
+（1）懒汉模式，在类实例需要的时候才创建。分为线程安全和线程不安全的写法
+
+```java
+//thread safe
+public class Singleton{
+	private Singleton instance;
+	private Singleton(){
+	}
+	public Singleton getInstance(){
+		if(instance==null){
+			instance=new Singleton();
+		}
+		return instance;
+	}
+}
+//thread no safe
+public class Singleton{
+	private Singleton instance;
+	private Singleton(){
+	}
+	public synchronized getInstance(){
+		if(instance==null){
+			instance=new Singleton();
+		}
+		return instance;
+	}
+}
+```
+（2）饿汉模式，初始化的时候就已经创建好了
+
+```java
+//静态成员变量在准备阶段就会创建
+public class Singleton{
+	private static Singleton instance=new Singleton();
+	private Singleton(){
+	}
+	public static Singleton getInstance(){
+		return instance;
+	}
+}
+```
+（3）双检索，线程安全模式
+
+```java
+public class Singleton{
+	private Singleton instance;
+	private Singleton(){
+	}
+	public Singleton getInstance(){
+		if(instance==null){
+			synchronized(Singleton.this){
+				if(instance==null){
+					instance=new Singleton();
+				}
+			}
+		}
+		return instance;
+	}
+}
+```
+（4）静态内部类
+（5）枚举
+
+```java
+public enum Singleton{
+	INSTANCE;
+	
+	public static Singleton get(){
+		return INSTANCE;
+	}
+}
+```
 
 ###4、不要使用finalize方法
 * finalize方法的执行时间不确定，不知道什么时候执行，会造成很大的性能损失
 * finalize阻止了正常的垃圾回收，将垃圾回收时间拖长，因为垃圾回收的时候会把重写了finalize的对象放到一个finalize的回收队列，尝试执行自定义的finalize方法，这个执行的契机是不确定的
+* 如果类对象中封装了资源，那么就要使用try-with-resources方式，具体实现时要让类实现AutoCloseable接口，实现close方法，在具体的实现方法中去关闭资源try()的括号中写类实例，这样在执行完try语句以后会自动的调用close方法。
 
 ###5、所有对象通用的方法
 （1）覆盖equals方法
@@ -195,4 +267,10 @@ public class test{
 
 （3）覆盖toString方法
 
+* 使用好的tostring方法可以让类使用起来更加的方便
+* 无论是否指定格式，在tostring方法中都应该表明你自己的意图
+* 
+
 （4）谨慎覆盖clone方法
+
+（5）Comparable接口
