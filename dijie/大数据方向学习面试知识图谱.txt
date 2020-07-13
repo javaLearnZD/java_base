@@ -69,7 +69,7 @@ https://blog.csdn.net/wufaliang003/article/details/79305688/	Java中三种代理
 
 锁
 https://www.cnblogs.com/hustzzl/p/9343797.html	Java中的锁分类与使用
-https://www.jianshu.com/p/2eb5ad8da4dc	深入理解Java中的锁
+https://www.cnblogs.com/durenniu/p/10949491.html	深入理解Java中的锁
 https://blog.csdn.net/boyeleven/article/details/81390738	Java对象的Monitor机制
 https://blog.csdn.net/ZHWang102107/article/details/83042406	Java死锁原理、如何避免死锁、死锁检测
 https://www.cnblogs.com/liun1994/p/7396026.html	Java并发工具类 - CountDownLatch
