@@ -42,12 +42,71 @@
 
 说明：
 
-	（1）
+	（1）抽象和具体的实现之间通过聚合的方式获得关联;
+	（2）Abstraction为抽象化角色，定义出该角色的行为，同时保存一个对实现化角色的引用；
+	（3）Implemetor是实现化角色，他是接口或者抽象类，定义角色必须的行为和属性
+	（4）RefinedAbstraction是修正抽象化角色，引用实现化角色对抽象化角色进行修正
+	（5）ConcreteImplementor是具体实现化角色，实现接口或者抽象类定义的方法或属性
+
+``` java
+//以手机品牌和手机软件为例子，手机有不同品牌，每种手机都会有不同的软件
+//interface
+public interface SoftWare{
+	public void run();
+} 
+//不同软件的实现
+public Game implements SoftWare{
+	public void run(){
+		System.out.println("Play games..");
+	}
+}
+public Calendar implements SoftWare{
+	public void run(){
+		System.out.println("Calendar")
+	}
+}
+//abstraction
+public abstract phoneBrand{
+	private SoftWare sw;
+	
+	public void setSoftWare(SoftWare sw){
+		this.sw=sw;
+	}
+	
+	//依赖具体实现，不同品牌手机有不同的运行方式
+	public abstract void run();
+}
+//
+public Huawei extends phoneBrand{
+	pulic void run(){
+		sw.run();
+	}
+}
+//不同的实现有不同的运行方式，但是对于相同的软件，运行方式都相同
+public Vivo extends phoneBrand{
+	public void run(){
+		System.out.println("Hello vivo!");
+		sw.run();
+	}
+}
+
+//调用
+public class Zhiyi{
+	public static void main(String[] args){
+		phoneBrand pb=new Huawe();
+		pb.setSoftWare(new Game());
+		pb.run();
+		pb.setSoftWare(new Calendar());
+		pb.run();
+	}
+}
+```
 
 
 
 ###2、多个构造器参数的时候考虑使用构建器
 * 使用建造者模式，在多个构造器参数的方法中通过flow模式构建对象
+* 通过这种方式可以自由组合构造器中的参数传递问题，如果不采用建造者模式，那么就需要很多的不同参数组合的构造函数。
 
 ``` java
 public class ClassRoom{
@@ -115,10 +174,84 @@ public class test{
     }
 }
 ```
+***单例设计模式***<br>
+（1）懒汉模式，在类实例需要的时候才创建。分为线程安全和线程不安全的写法
+
+```java
+//thread safe
+public class Singleton{
+	private Singleton instance;
+	private Singleton(){
+	}
+	public Singleton getInstance(){
+		if(instance==null){
+			instance=new Singleton();
+		}
+		return instance;
+	}
+}
+//thread no safe
+public class Singleton{
+	private Singleton instance;
+	private Singleton(){
+	}
+	public synchronized getInstance(){
+		if(instance==null){
+			instance=new Singleton();
+		}
+		return instance;
+	}
+}
+```
+（2）饿汉模式，初始化的时候就已经创建好了
+
+```java
+//静态成员变量在准备阶段就会创建
+public class Singleton{
+	private static Singleton instance=new Singleton();
+	private Singleton(){
+	}
+	public static Singleton getInstance(){
+		return instance;
+	}
+}
+```
+（3）双检索，线程安全模式
+
+```java
+public class Singleton{
+	private Singleton instance;
+	private Singleton(){
+	}
+	public Singleton getInstance(){
+		if(instance==null){
+			synchronized(Singleton.this){
+				if(instance==null){
+					instance=new Singleton();
+				}
+			}
+		}
+		return instance;
+	}
+}
+```
+（4）静态内部类
+（5）枚举
+
+```java
+public enum Singleton{
+	INSTANCE;
+	
+	public static Singleton get(){
+		return INSTANCE;
+	}
+}
+```
 
 ###4、不要使用finalize方法
 * finalize方法的执行时间不确定，不知道什么时候执行，会造成很大的性能损失
 * finalize阻止了正常的垃圾回收，将垃圾回收时间拖长，因为垃圾回收的时候会把重写了finalize的对象放到一个finalize的回收队列，尝试执行自定义的finalize方法，这个执行的契机是不确定的
+* 如果类对象中封装了资源，那么就要使用try-with-resources方式，具体实现时要让类实现AutoCloseable接口，实现close方法，在具体的实现方法中去关闭资源try()的括号中写类实例，这样在执行完try语句以后会自动的调用close方法。
 
 ###5、所有对象通用的方法
 （1）覆盖equals方法
@@ -134,4 +267,10 @@ public class test{
 
 （3）覆盖toString方法
 
+* 使用好的tostring方法可以让类使用起来更加的方便
+* 无论是否指定格式，在tostring方法中都应该表明你自己的意图
+* 
+
 （4）谨慎覆盖clone方法
+
+（5）Comparable接口
