@@ -78,6 +78,8 @@ https://www.cnblogs.com/klbc/p/9500947.html	Semaphore 的使用思路
 https://www.cnblogs.com/iou123lg/p/9689491.html	Semaphore 使用
 https://www.cnblogs.com/barrywxx/p/8678698.html	synchronized的锁优化
 https://blog.csdn.net/fygu18/article/details/81784574	读写锁
+https://www.cnblogs.com/wenjunwei/p/10573289.html 程序顺序执行
+https://www.cnblogs.com/hoonick/p/10794968.html 程序顺序执行
 
 线程池
 https://www.jianshu.com/p/f5ead62827d7	深入剖析Java线程池原理	已失效 用https://www.jianshu.com/p/87bff5cc8d8c/
@@ -106,7 +108,6 @@ https://blog.csdn.net/qq_38293564/article/details/80483751	Java并发编程之Ab
 JVM
 https://blog.csdn.net/zhaohong_bo/article/details/89399715	深入理解 JVM Class文件格式
 https://www.jianshu.com/p/de097e7a813a	JVM内存结构 & Java垃圾回收机制（GC）
-https://www.cnblogs.com/yueshutong/p/9531347.html	四种引用类型
 https://blog.csdn.net/qq_34457118/article/details/81712293	JVM内存结构（基于JDK8）
 https://blog.csdn.net/rickiyeat/article/details/76802085	Java中对象都是分配在堆上吗？你错了！
 https://blog.csdn.net/w372426096/article/details/80333657	对象并不一定都是在堆上分配内存的。
@@ -128,6 +129,7 @@ https://www.jianshu.com/p/ca1b0d4107c5	CMS之promotion failed&concurrent mode fa
 https://www.jianshu.com/p/60dbd8009c64	聊聊JDBC是如何破坏双亲委派模型的
 https://blog.csdn.net/zhushuai1221/article/details/52122880	Java 8: 从永久代（PermGen）到元空间（Metaspace）
 https://blog.csdn.net/pzxwhc/article/details/46722411	Java JVM（六）：JDK8 元空间
+https://www.jianshu.com/p/548c67aa1bc0 G1
 
 NIO
 http://ifeve.com/overview/	Java NIO系列教程（一） Java NIO 概述
@@ -187,6 +189,7 @@ http://hbasefly.com/?s=hbase&submit=Search	大牛hbase博客
 https://mp.weixin.qq.com/s?__biz=MzI0NTIxNzE1Ng==&mid=2651218277&idx=1&sn=cee9f51fcd11f8e54b0925fdfd9eb38f&chksm=f2a3238ec5d4aa98d5794b46249d9d28c22ad207680ac228b27788583c0d26740bc6131b86ab&mpshare=1&scene=1&srcid=&sharer_sharetime=1572245532520&sharer_shareid=1d42fd86fc76428d014ddf08bc1e0a29&key=a8dbb24e2b14083ae54ecacac8a23fb9f1c2c17f42ef4c15d1431ee13904e936249b286c3fbc85242caa3e20f47ec1c67b9aeed179a5a29aca714f027b84de5453218c8b872887687fc841ab8a015ad1&ascene=1&uin=MTk3OTE3MDcwMA%3D%3D&devicetype=Windows+10&version=62070141&lang=zh_CN&pass_ticket=SPF%2FIn61t9V0ODw0F4UIsFxrhX0xzucebDYQLD%2F2Q1cO6uvjbiQBgAS9HVNGMsNb	HBase抗战总结|阿里巴巴HBase高可用8年抗战回忆录
 https://blog.51cto.com/12445535/2373788?source=dra	hbase内存规划（读多写少型和写多读少型）
 https://blog.csdn.net/lipeng_bigdata/article/category/6049175/1	hbase 源码分析
+https://www.jianshu.com/p/64512e706548 blockCache
 
 Kafka
 https://www.cnblogs.com/tianchengmmmm/p/8116325.html	Kafka的特点及使用场景
@@ -306,6 +309,7 @@ https://flink.apache.org/blog/	apache
 http://www.whitewood.me/	不知名
 https://blog.jrwang.me/	不知名
 https://github.com/yangchong211/YCBlogs	不知名
+https://blog.csdn.net/weixin_47482194 狄杰
 
 
 redis
@@ -330,3 +334,11 @@ https://blog.csdn.net/Hacker_ZhiDian/article/details/60586445	https://blog.csdn.
 
 笔试题：
 死锁、排序、查找、线程按顺序执行
+
+ES
+https://blog.csdn.net/u011228889/article/details/79760167 深度分页
+
+MYSQL 
+https://www.cnblogs.com/lianshan/p/11716190.html 深度分页
+
+
